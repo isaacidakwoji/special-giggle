@@ -1,0 +1,89 @@
+.thumbnail-div {
+  position: relative;
+  
+}
+.thumbnail {
+  width: 100%;
+  cursor: pointer;
+  object-position: top;
+  object-fit: cover;
+}
+
+.video-title {
+font-size: 14px;
+font-weight: 550;
+width: 100%;
+margin-bottom: 5px;
+margin-top: 8px;
+line-height: 23px;
+cursor: pointer;
+}
+.channel-name {
+font-size: 13px;
+color: rgb(102, 102, 102);
+margin-top: 7px;
+margin-bottom: 0%;
+cursor: pointer;
+}
+.video-stat {
+font-size: 13px;
+color: rgb(102, 102, 102);
+margin-top: 4px;
+margin-bottom: 0%;
+}
+
+.video-info-grid {
+display: grid;
+grid-template-columns: 50px 1fr;
+cursor: pointer;
+}
+.channel-picture {
+width: 40px;
+border-radius: 30px;
+cursor: pointer;
+}
+.channel-picture-div {
+
+width: 50px;
+vertical-align: top;
+padding-top: 10px;
+
+}
+.video-info-div {
+
+width: 250px;
+margin-left: -5px;
+}
+
+.video-grid {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+column-gap: 15px;
+row-gap: 30px;
+
+}
+
+@media (max-width: 800px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.video-time {
+  background-color: rgba(0, 0, 0, 0.87);
+  color: white;
+  
+  font-weight: bold;
+  font-size: 12px;
+  position: absolute;
+  bottom: 10px;
+  right: 8px;
+  border: none;
+  border-radius: 3px;
+  padding: 4px;
+  cursor: pointer;
+  
+}
+.big-div {
+  cursor: pointer;
+  
+}
